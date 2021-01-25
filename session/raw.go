@@ -2,12 +2,14 @@ package session
 
 import (
 	"database/sql"
+	"myorm/dialect"
 	"myorm/log"
 	"strings"
 )
 
 type Session struct {
 	db      *sql.DB
+	dialect dialect.Dialect
 	sql     strings.Builder
 	sqlVars []interface{}
 }
