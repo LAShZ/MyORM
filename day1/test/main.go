@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	engine, _ := myorm.NewEngine("sqlite3", "gee.db")
+	engine, _ := myorm.NewEngine("sqlite3", "my.db")
 	defer engine.Close()
 	s := engine.NewSession()
 	_, _ = s.Raw("DROP TABLE IF EXISTS User;").Exec()

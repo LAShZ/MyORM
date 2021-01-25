@@ -17,7 +17,7 @@ func NewEngine(driver, source string) (e *Engine, err error) {
 		log.Error(err)
 		return
 	}
-	// Send a ping to make sure the database connection is alive.
+	// Send a ping to make sure the database connection is alive. 
 	if err = db.Ping(); err != nil {
 		log.Error(err)
 		return
