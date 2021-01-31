@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-type sqlite3 struct {}
+type sqlite3 struct{}
 
 var _ Dialect = (*sqlite3)(nil)
 
@@ -18,7 +18,7 @@ func (s *sqlite3) DataTypeOf(val reflect.Value) string {
 	switch val.Kind() {
 	case reflect.Bool:
 		return "bool"
-	case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32, reflect.Uint, reflect.Uint8, reflect.Uint16,reflect.Uint32, reflect.Uintptr:
+	case reflect.Int, reflect.Int8, reflect.Int16, reflect.Int32, reflect.Uint, reflect.Uint8, reflect.Uint16, reflect.Uint32, reflect.Uintptr:
 		return "integer"
 	case reflect.Int64, reflect.Uint64:
 		return "bigint"

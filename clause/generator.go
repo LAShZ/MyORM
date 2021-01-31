@@ -24,7 +24,7 @@ func genBindVars(num int) string {
 	for i := 0; i < num; i++ {
 		vars = append(vars, "?")
 	}
-	return strings.Join(vars,", ")
+	return strings.Join(vars, ", ")
 }
 
 // _insert generate clause "INSERT INTO $tableName ($fields)"

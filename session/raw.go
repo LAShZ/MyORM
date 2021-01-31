@@ -2,6 +2,7 @@ package session
 
 import (
 	"database/sql"
+	"myorm/clause"
 	"myorm/dialect"
 	"myorm/log"
 	"myorm/schema"
@@ -9,16 +10,17 @@ import (
 )
 
 type Session struct {
-	db			*sql.DB
-	dialect		dialect.Dialect
-	refTable	*schema.Schema
-	sql     	strings.Builder
-	sqlVars 	[]interface{}
+	db       *sql.DB
+	dialect  dialect.Dialect
+	refTable *schema.Schema
+	clauses	 clause.Clause
+	sql      strings.Builder
+	sqlVars  []interface{}
 }
 
 func New(db *sql.DB, dialect dialect.Dialect) *Session {
 	return &Session{
-		db: db,
+		db:      db,
 		dialect: dialect,
 	}
 }
@@ -26,6 +28,7 @@ func New(db *sql.DB, dialect dialect.Dialect) *Session {
 func (s *Session) Clear() {
 	s.sql.Reset()
 	s.sqlVars = nil
+	s.clauses = clause.Clause{}
 }
 
 func (s *Session) DB() *sql.DB {

@@ -2,6 +2,7 @@ package session
 
 import (
 	"database/sql"
+	_ "github.com/mattn/go-sqlite3"
 	"myorm/dialect"
 	"os"
 	"testing"
@@ -11,6 +12,11 @@ var (
 	TestDB      *sql.DB
 	TestDial, _ = dialect.GetDialect("sqlite3")
 )
+
+type User struct {
+	Name string `myorm:"PRIMARY KEY"`
+	Age  int
+}
 
 func TestMain(m *testing.M) {
 	TestDB, _ = sql.Open("sqlite3", "../my.db")
