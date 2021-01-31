@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5b0d31f-a667-4f03-bd22-82d3ec4a0a52" name="Default Changelist" comment="" />
+    <list default="true" id="d5b0d31f-a667-4f03-bd22-82d3ec4a0a52" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,28 +51,8 @@
       <recent name="C:\Users\LA\go\src\MyORM\day2\dialect" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSession_CreateTable in myorm/session">
-    <configuration name="go build myorm/test" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="MyORM" />
-      <working_directory value="$PROJECT_DIR$/day1" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/day1/test/main.go" />
-      <package value="myorm/test" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestParse in myorm/schema" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="MyORM" />
-      <working_directory value="$PROJECT_DIR$/day2/schema" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="myorm/schema" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestParse\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSession_CreateTable in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test myorm/session">
+    <configuration name="TestSession_CreateTable in myorm/session (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -81,11 +63,55 @@
       <pattern value="^\QTestSession_CreateTable\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestSession_Exec in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="MyORM" />
+      <working_directory value="$PROJECT_DIR$/session" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="myorm/session" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSession_Exec\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestSession_QueryRows in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="MyORM" />
+      <working_directory value="$PROJECT_DIR$/session" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="myorm/session" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSession_QueryRows\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test myorm/clause" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="MyORM" />
+      <working_directory value="$PROJECT_DIR$/clause" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="myorm/clause" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="MyORM" />
+      <working_directory value="$PROJECT_DIR$/session" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="myorm/session" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSession_CreateTable in myorm/session" />
-        <item itemvalue="Go Test.TestParse in myorm/schema" />
-        <item itemvalue="Go Build.go build myorm/test" />
+        <item itemvalue="Go Test.go test myorm/session" />
+        <item itemvalue="Go Test.TestSession_QueryRows in myorm/session" />
+        <item itemvalue="Go Test.go test myorm/clause" />
+        <item itemvalue="Go Test.TestSession_Exec in myorm/session" />
+        <item itemvalue="Go Test.TestSession_CreateTable in myorm/session (1)" />
       </list>
     </recent_temporary>
   </component>
