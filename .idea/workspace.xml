@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/myorm.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myorm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/myorm_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session/raw.go" beforeDir="false" afterPath="$PROJECT_DIR$/session/raw.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,29 @@
       <recent name="C:\Users\LA\go\src\MyORM\day2\dialect" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSession_CallMethod in myorm/session (2)">
+  <component name="RunManager" selected="Go Test.TestEngine_Migrate in myorm">
+    <configuration name="TestEngine_Migrate in myorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="MyORM" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="myorm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEngine_Migrate\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestEngine_Transaction in myorm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="MyORM" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="myorm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestEngine_Transaction\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestSession_CallMethod in myorm/session (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
@@ -80,29 +101,7 @@
       <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSession_CallMethod in myorm/session (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="MyORM" />
-      <working_directory value="$PROJECT_DIR$/session" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="myorm/session" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSession_CallMethod\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="TestSession_CallMethod in myorm/session (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="MyORM" />
-      <working_directory value="$PROJECT_DIR$/session" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="myorm/session" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSession_CallMethod\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestSession_CallMethod in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestEngine_Migrate in myorm" />
+        <item itemvalue="Go Test.TestEngine_Transaction in myorm" />
         <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (2)" />
         <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (4)" />
         <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (1)" />
-        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (3)" />
-        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session" />
       </list>
     </recent_temporary>
   </component>
