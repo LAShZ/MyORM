@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d5b0d31f-a667-4f03-bd22-82d3ec4a0a52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clause/clause.go" beforeDir="false" afterPath="$PROJECT_DIR$/clause/clause.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/clause/generator.go" beforeDir="false" afterPath="$PROJECT_DIR$/clause/generator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/schema/schema.go" beforeDir="false" afterPath="$PROJECT_DIR$/schema/schema.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session/raw.go" beforeDir="false" afterPath="$PROJECT_DIR$/session/raw.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session/record.go" beforeDir="false" afterPath="$PROJECT_DIR$/session/record.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session/record_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/session/record_test.go" afterDir="false" />
     </list>
@@ -48,15 +51,15 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="go.dep" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LA\go\src\MyORM\day2\dialect" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestSession_DeleteAndCount in myorm/session">
-    <configuration name="TestSession_DeleteAndCount in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestSession_CallMethod in myorm/session (2)">
+    <configuration name="TestSession_CallMethod in myorm/session (1)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -64,10 +67,10 @@
       <package value="myorm/session" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSession_DeleteAndCount\E$" />
+      <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSession_Find in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSession_CallMethod in myorm/session (2)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -75,10 +78,10 @@
       <package value="myorm/session" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSession_Find\E$" />
+      <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSession_Limit in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSession_CallMethod in myorm/session (3)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -86,10 +89,10 @@
       <package value="myorm/session" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSession_Limit\E$" />
+      <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestSession_Update in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSession_CallMethod in myorm/session (4)" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -97,10 +100,10 @@
       <package value="myorm/session" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestSession_Update\E$" />
+      <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSession_CallMethod in myorm/session" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="MyORM" />
       <working_directory value="$PROJECT_DIR$/session" />
       <framework value="gotest" />
@@ -108,15 +111,16 @@
       <package value="myorm/session" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <pattern value="^\QTestSession_CallMethod\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestSession_DeleteAndCount in myorm/session" />
-        <item itemvalue="Go Test.TestSession_Update in myorm/session" />
-        <item itemvalue="Go Test.TestSession_Limit in myorm/session" />
-        <item itemvalue="Go Test.go test myorm/session" />
-        <item itemvalue="Go Test.TestSession_Find in myorm/session" />
+        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (2)" />
+        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (4)" />
+        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (1)" />
+        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (3)" />
+        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session" />
       </list>
     </recent_temporary>
   </component>

@@ -15,11 +15,11 @@ type Field struct {
 
 // Schema represents a table of database
 type Schema struct {
-	Model     interface{}
-	Name      string
-	Fields    []*Field
+	Model      interface{}
+	Name       string
+	Fields     []*Field
 	FieldNames []string
-	fieldMap  map[string]*Field
+	fieldMap   map[string]*Field
 }
 
 func (schema *Schema) GetField(name string) *Field {

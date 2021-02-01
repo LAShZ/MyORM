@@ -13,7 +13,7 @@ type Session struct {
 	db       *sql.DB
 	dialect  dialect.Dialect
 	refTable *schema.Schema
-	clauses	 clause.Clause
+	clauses  clause.Clause
 	sql      strings.Builder
 	sqlVars  []interface{}
 }
