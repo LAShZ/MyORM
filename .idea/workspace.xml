@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5b0d31f-a667-4f03-bd22-82d3ec4a0a52" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.db" beforeDir="false" afterPath="$PROJECT_DIR$/my.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log.go" beforeDir="false" afterPath="$PROJECT_DIR$/log/log.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/myorm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myorm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/myorm_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +30,6 @@
     <setting file="file://$PROJECT_DIR$/../../../../../Go/src/reflect/type.go" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/../../../../../Go/src/reflect/value.go" root0="SKIP_INSPECTION" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedIndex" value="1" />
-  </component>
   <component name="ProjectId" id="1n8Q1Z5NsmVRXi83yzdcwfR5KYK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -49,8 +46,8 @@
     <property name="configurable.GoLibrariesConfigurable.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
-    <property name="settings.editor.selected.configurable" value="go.dep" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -115,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestEngine_Migrate in myorm" />
-        <item itemvalue="Go Test.TestEngine_Transaction in myorm" />
-        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (2)" />
         <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (4)" />
+        <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (2)" />
         <item itemvalue="Go Test.TestSession_CallMethod in myorm/session (1)" />
+        <item itemvalue="Go Test.TestEngine_Transaction in myorm" />
+        <item itemvalue="Go Test.TestEngine_Migrate in myorm" />
       </list>
     </recent_temporary>
   </component>

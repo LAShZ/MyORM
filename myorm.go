@@ -18,6 +18,12 @@ type Engine struct {
 type TxFunc func(*session.Session) (interface{}, error)
 
 func NewEngine(driver, source string) (e *Engine, err error) {
+	// Make sure the specific dialect exists
+	dial, ok := dialect.GetDialect(driver)
+	if !ok {
+		log.Errorf("dialect %s Not Found", driver)
+		return
+	}
 	db, err := sql.Open(driver, source)
 	if err != nil {
 		log.Error(err)
@@ -26,12 +32,6 @@ func NewEngine(driver, source string) (e *Engine, err error) {
 	// Send a ping to make sure the database connection is alive.
 	if err = db.Ping(); err != nil {
 		log.Error(err)
-		return
-	}
-	// Make sure the specific dialect exists
-	dial, ok := dialect.GetDialect(driver)
-	if !ok {
-		log.Errorf("dialect %s Not Found", driver)
 		return
 	}
 	e = &Engine{
